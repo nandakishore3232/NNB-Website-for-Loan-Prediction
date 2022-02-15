@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navName{
+  color: #ffffff;
+  background: linear-gradient(to right, #4d4d4d 0, white 10%, #4d4d4d 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 6s infinite linear;
+  animation-fill-mode: forwards;
+  font-weight: 900;
+  font-size: 28px;
+}
+
+@keyframes shine{
+  0%{
+    background-position: 0;
+  }
+  60%{
+    background-position: 120px;
+  }
+  100%{
+    background-position: 180px;
+  }
+  }
+
+  textarea {
+    resize: none;
+  }
